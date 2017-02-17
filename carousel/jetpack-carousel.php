@@ -249,6 +249,13 @@ class Jetpack_Carousel {
 			}
 		}
 
+		/**
+		 * @link https://wordpress.org/support/topic/array-to-string-conversion-4/
+		 */
+		if ( isset( $img_meta['keywords'] ) ) {
+			unset( $img_meta['keywords'] );
+		}
+		
 		$img_meta = json_encode( array_map( 'strval', $img_meta ) );
 
 		$attr['data-attachment-id']     = $attachment_id;
