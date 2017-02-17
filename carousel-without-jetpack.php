@@ -1,6 +1,6 @@
 <?php
 /* 
-Plugin Name: Gallery Carousel Without JetPack
+Plugin Name: Gallery Carousel Without JetPack (Fork)
 Plugin URI: http://www.wpbeginner.com/
 Description: Transform your standard galleries into an immersive full-screen experience without requiring you to connect to WordPress.com
 Version: 0.7.5
